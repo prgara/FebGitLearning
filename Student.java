@@ -1,13 +1,16 @@
 public class Student {
 
     int id;
-    String firstName;
-    String lastName;
+    String firstName,lastName;
 
-    Student (int id; String firstName, String lastName){
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Student() {
+
+    }
+
+    public Student (int id; String firstName, String lastName){
+            this.id = id;
+            this.firstName = firstName;
+            this.lastName = lastName;
     }
 
 }
